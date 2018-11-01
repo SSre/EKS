@@ -1,0 +1,32 @@
+{
+  "Dimension": [
+    "AZ",
+    "CACHE_ENGINE",
+    "DATABASE_ENGINE",
+    "DEPLOYMENT_OPTION",
+    "INSTANCE_TYPE",
+    "INSTANCE_TYPE_FAMILY",
+    "LEGAL_ENTITY_NAME",
+    "LINKED_ACCOUNT",
+    "OPERATION",
+    "PLATFORM",
+    "PURCHASE_TYPE",
+    "REGION",
+    "SERVICE",
+    "TENANCY",
+    "USAGE_TYPE"
+  ],
+  "Tag": [
+    "Application",
+    "aws:cloudformation:stack-id",
+    "aws:cloudformation:stack-name",
+    "aws:createdBy",
+    "Environment",
+    "Name",
+    "Project",
+    "s3",
+    "Testing",
+    "user:stack",
+    "user:subhash"
+  ]
+}

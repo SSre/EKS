@@ -1,0 +1,4 @@
+python3.5-dev 
+libmysqlclient-dev
+uwsgi-plugin-python3
+uwsgi

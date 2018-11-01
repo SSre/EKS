@@ -1,0 +1,44 @@
+{
+  "Filter": {
+    "dimensions": [
+      {
+        "key": "INSTANCE_TYPE",
+        "values": [
+          "t2.medium",
+          "t2.large"
+        ],
+        "exclude": "False"
+      },
+      {
+        "key": "SERVICE",
+        "values": [
+          "Amazon Elastic Compute Cloud - Compute"
+        ],
+        "exclude": "False"
+      }
+    ],
+    "tags": [
+      {
+        "key": "Project",
+        "values": [
+          "Kubernetes"
+        ],
+        "exclude": "True"
+      }
+    ]
+  },
+  "groupby": {
+    "dimension": [
+      {
+        "key": "INSTANCE_TYPE",
+        "order": "1"
+      }
+    ],
+    "tag": [
+      {
+        "key": "Project",
+        "order": "2"
+      }
+    ]
+  }
+}

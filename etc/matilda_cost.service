@@ -1,0 +1,14 @@
+[Unit]
+Description=Matilda Cost Management API Service
+After=network.target
+
+[Service]
+User=root
+Environment= PYTHONPATH=/opt/matilda_cost_management_refactor
+WorkingDirectory=/opt/matilda_cost_management_refactor/etc
+ExecStart=/usr/bin/uwsgi --socket 0.0.0.0:6010 --protocol=http --ini matilda_cost.ini
+SuccessExitStatus=5
+
+[Install]
+WantedBy=multi-user.target
+
