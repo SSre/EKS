@@ -21,7 +21,7 @@ extras==1.0.0
 fasteners==0.14.1
 fixtures==3.0.0
 Flask==1.0.2
-Flask-Cors==3.0.6
+Flask-Cors==3.0.9
 flask-oslolog==0.1
 futures==3.1.1
 futurist==1.7.0
